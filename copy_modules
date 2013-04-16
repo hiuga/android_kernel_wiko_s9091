@@ -1,0 +1,2 @@
+kernelpath=$1
+for folder in `find ${kernelpath} -name *.module`; do cp $folder $2/${folder:${#kernelpath}} ; done
