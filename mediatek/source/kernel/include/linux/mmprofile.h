@@ -28,6 +28,7 @@ typedef enum
     MMProfileMetaBitmap,
     MMProfileMetaRaw,
     MMProfileMetaUser = 0x10000000,
+    MMProfileMetaUserM4UReg,
     MMProfileMetaMax = 0xFFFFFFFF
 } MMP_MetaDataType;
 

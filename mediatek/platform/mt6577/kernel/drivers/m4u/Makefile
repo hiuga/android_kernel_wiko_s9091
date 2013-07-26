@@ -1,1 +1,1 @@
-obj-  := dummy.o
+obj-m += m4u.o
